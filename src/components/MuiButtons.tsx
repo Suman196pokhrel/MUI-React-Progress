@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Stack,IconButton } from '@mui/material'
+import { Button, Stack, IconButton, ButtonGroup } from '@mui/material'
 import SendIcon from '@mui/icons-material/Send';
 
 
@@ -47,26 +47,26 @@ function MuiButtons() {
 
                </Stack>
                {/* Button Sizes  */}
-               <Stack  spacing={2} direction={`row`}>
+               <Stack spacing={2} direction={`row`}>
                     <Stack spacing={2}>
-                    <Button variant='text' size='small' >Small</Button>
-                    <Button variant='text' size='medium' >meduim</Button>
-                    <Button variant='text' size='large' >Large</Button>
+                         <Button variant='text' size='small' >Small</Button>
+                         <Button variant='text' size='medium' >meduim</Button>
+                         <Button variant='text' size='large' >Large</Button>
                     </Stack>
-                    
+
                     <Stack spacing={2}>
-                    <Button variant='outlined' size='small' >Small</Button>
-                    <Button variant='outlined' size='medium' >meduim</Button>
-                    <Button variant='outlined' size='large' >Large</Button>
+                         <Button variant='outlined' size='small' >Small</Button>
+                         <Button variant='outlined' size='medium' >meduim</Button>
+                         <Button variant='outlined' size='large' >Large</Button>
                     </Stack>
-                    
+
                     <Stack spacing={2}>
-                    <Button variant='contained' size='small' >Small</Button>
-                    <Button variant='contained' size='medium' >meduim</Button>
-                    <Button variant='contained' size='large' >Large</Button>
+                         <Button variant='contained' size='small' >Small</Button>
+                         <Button variant='contained' size='medium' >meduim</Button>
+                         <Button variant='contained' size='large' >Large</Button>
                     </Stack>
-                    
-               
+
+
                </Stack>
 
                {/* Buttons With Icons  */}
@@ -74,26 +74,47 @@ function MuiButtons() {
                     <Button variant='contained' startIcon={<SendIcon />}>Send</Button>
                     <Button variant='contained' endIcon={<SendIcon />}>Send</Button>
 
-                    <IconButton aria-label='send'color='success' size='large'>
+                    <IconButton aria-label='send' color='success' size='large'>
                          <SendIcon />
                     </IconButton>
 
                </Stack>
 
-               
+
                <Stack spacing={2} direction='row'>
-               {/* Buttons without Elevations */}
-               <Button variant='contained' disableElevation startIcon={<SendIcon />}>Send</Button>
-               {/* Button Without Ripple Effect  */}
-               <Button variant='contained' disableRipple endIcon={<SendIcon />}>Send</Button>
+                    {/* Buttons without Elevations */}
+                    <Button variant='contained' disableElevation startIcon={<SendIcon />}>Send</Button>
+                    {/* Button Without Ripple Effect  */}
+                    <Button variant='contained' disableRipple endIcon={<SendIcon />}>Send</Button>
                </Stack>
 
                {/* OnClick Methods  */}
                <Stack direction='row'>
-                    <Button variant='contained' color='primary' size='medium' onClick={()=>alert("OnClick Method tested")}>Alert</Button>
+                    <Button variant='contained' color='primary' size='medium' onClick={() => alert("OnClick Method tested")}>Alert</Button>
                </Stack>
 
-               
+               {/* Button group  */}
+               <Stack spacing={5} direction='row'>
+
+                    <ButtonGroup aria-label="alignment button group" variant='text' orientation='vertical' color='success'>
+                         <Button >Left</Button>
+                         <Button >Center</Button>
+                         <Button >Right</Button>
+                    </ButtonGroup>
+                    <ButtonGroup variant='outlined' color='error'>
+                         <Button >Left</Button>
+                         <Button >Center</Button>
+                         <Button >Right</Button>
+                    </ButtonGroup>
+                    <ButtonGroup variant='contained' orientation='vertical'>
+                         <Button >Left</Button>
+                         <Button >Center</Button>
+                         <Button >Right</Button>
+                    </ButtonGroup>
+
+
+
+               </Stack>
 
           </Stack>
 
