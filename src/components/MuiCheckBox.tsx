@@ -53,7 +53,7 @@ function MuiCheckBox() {
          <Box>
               <FormControl>
                    <FormLabel>Skills</FormLabel>
-                   <FormGroup>
+                   <FormGroup row>
                         <FormControlLabel label='HTML'  control={<Checkbox value='html' checked={skills.includes('html')} onChange={handleSkillChange} />}/>
                         <FormControlLabel label='CSS' control={<Checkbox value='css' checked={skills.includes('css')} onChange={handleSkillChange} />}/>
                         <FormControlLabel label='JS'  control={<Checkbox value='js' checked={skills.includes('js')} onChange={handleSkillChange} />}/>
