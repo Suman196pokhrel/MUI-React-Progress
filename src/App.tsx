@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import MuiButtons from './components/MuiButtons';
+import MuiSelect from './components/MuiSelect';
 import MuiTextFields from './components/MuiTextFields';
 import { MuiTypography } from './components/MuiTypography';
 
@@ -12,7 +13,10 @@ function App() {
     <div className="App">
       {/* <MuiTypography /> */}
       {/* <MuiButtons /> */}
-      <MuiTextFields />
+      {/* <MuiTextFields /> */}
+      <MuiSelect />
+
+
     </div>
   );
 }
