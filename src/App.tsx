@@ -10,7 +10,7 @@ import MuiSelect from './components/MuiSelect';
 import MuiSwitch from './components/MuiSwitch';
 import MuiTextFields from './components/MuiTextFields';
 import { MuiTypography } from './components/MuiTypography';
-
+import MuiCard from './components/MuiCard';
 
 
 
@@ -26,7 +26,8 @@ function App() {
       {/* <MuiSwitch /> */}
       {/* <MuiRating /> */}
       {/* <MuiAutoComplete /> */}
-      <MuiLayout />
+      {/* <MuiLayout /> */}
+      <MuiCard />
     </div>
   );
 }
