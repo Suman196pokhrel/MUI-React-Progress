@@ -1,14 +1,14 @@
 import React from 'react'
-import { Box, Stack,Divider } from '@mui/material'
+import { Box, Stack, Divider, Grid } from '@mui/material'
 
 function MuiLayout() {
-  return (
+  return (<>
     <Stack sx={{
-      border:'1px solid'
+      border: '1px solid'
     }}
-    direction='row'
-    spacing={2}
-    divider={<Divider orientation='vertical' flexItem/>}
+      direction='row'
+      spacing={2}
+      divider={<Divider orientation='vertical' flexItem />}
     >
       <Box sx={{
         backgroundColor: 'primary.main',
@@ -32,7 +32,15 @@ function MuiLayout() {
 
       </Box>
     </Stack>
-  )
+    <Grid container my={4} spacing={2}>
+        <Grid item xs={12} sm={6} md={3} lg xl={3}> <Box bgcolor='primary.light' border='1px solid' p={2}>Item 1</Box></Grid>
+        <Grid item xs={12} sm={6} md={3} lg xl={3}> <Box bgcolor='primary.light' border='1px solid' p={2}>Item 2</Box></Grid>
+        <Grid item xs={12} sm={6} md={3} lg xl={3}> <Box bgcolor='primary.light' border='1px solid' p={2}>Item 3</Box></Grid>
+        <Grid item xs={12} sm={6} md={3} lg xl={3}> <Box bgcolor='primary.light' border='1px solid' p={2}>Item 4</Box></Grid>
+
+    </Grid>
+  </>
+  ) 
 }
 
 export default MuiLayout
