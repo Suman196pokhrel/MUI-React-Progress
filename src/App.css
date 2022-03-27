@@ -1,6 +1,9 @@
 .App {
   padding: 4rem;
 }
+body{
+  background-color: #eeeeee;
+}
 
 .App-logo {
   height: 40vmin;
