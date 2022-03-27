@@ -12,7 +12,7 @@ import MuiTextFields from './components/MuiTextFields';
 import { MuiTypography } from './components/MuiTypography';
 import MuiCard from './components/MuiCard';
 import MuiAccordian from './components/MuiAccordian';
-
+import MuiImageList from './components/MuiImageList';
 
 
 function App() {
@@ -29,7 +29,8 @@ function App() {
       {/* <MuiAutoComplete /> */}
       {/* <MuiLayout /> */}
       {/* <MuiCard /> */}
-      <MuiAccordian />
+      {/* <MuiAccordian /> */}
+      <MuiImageList />
     </div>
   );
 }
