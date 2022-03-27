@@ -11,6 +11,7 @@ import MuiSwitch from './components/MuiSwitch';
 import MuiTextFields from './components/MuiTextFields';
 import { MuiTypography } from './components/MuiTypography';
 import MuiCard from './components/MuiCard';
+import MuiAccordian from './components/MuiAccordian';
 
 
 
@@ -27,7 +28,8 @@ function App() {
       {/* <MuiRating /> */}
       {/* <MuiAutoComplete /> */}
       {/* <MuiLayout /> */}
-      <MuiCard />
+      {/* <MuiCard /> */}
+      <MuiAccordian />
     </div>
   );
 }
