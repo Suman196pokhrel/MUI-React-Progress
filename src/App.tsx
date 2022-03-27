@@ -13,6 +13,7 @@ import { MuiTypography } from './components/MuiTypography';
 import MuiCard from './components/MuiCard';
 import MuiAccordian from './components/MuiAccordian';
 import MuiImageList from './components/MuiImageList';
+import MuiNavbar from './components/MuiNavbar';
 
 
 function App() {
@@ -30,7 +31,8 @@ function App() {
       {/* <MuiLayout /> */}
       {/* <MuiCard /> */}
       {/* <MuiAccordian /> */}
-      <MuiImageList />
+      {/* <MuiImageList /> */}
+      <MuiNavbar />
     </div>
   );
 }
