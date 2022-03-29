@@ -13,7 +13,7 @@ function MuiBottomNav() {
      return (
           <BottomNavigation
                sx={{
-                    width: "90vw",
+                    width: "100%",
                     position: "absolute",
                     bottom: 0,
                     //     backgroundColor:"primary.main",

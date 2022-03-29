@@ -18,6 +18,8 @@ import MuiLink from './components/MuiLink';
 import MuiDrawer from './components/MuiDrawer';
 import MuiSpeedDial from './components/MuiSpeedDial';
 import MuiBottomNav from './components/MuiBottomNav';
+import MuiAvatar from './components/MuiAvatar';
+import MuiBadge from './components/MuiBadge';
 
 
 function App() {
@@ -36,11 +38,13 @@ function App() {
       {/* <MuiCard /> */}
       {/* <MuiAccordian /> */}
       {/* <MuiImageList /> */}
-      <MuiNavbar />
+      {/* <MuiNavbar /> */}
       {/* <MuiLink /> */}
-      <MuiDrawer />
-      <MuiSpeedDial />
-      <MuiBottomNav />
+      {/* <MuiDrawer /> */}
+      {/* <MuiSpeedDial /> */}
+      {/* <MuiBottomNav /> */}
+      {/* <MuiAvatar /> */}
+      <MuiBadge />
     </div>
   );
 }
