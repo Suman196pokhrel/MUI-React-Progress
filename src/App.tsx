@@ -24,6 +24,7 @@ import MuiList from './components/MuiList';
 import MuiChip from './components/MuiChip';
 import MuiToolTip from './components/MuiToolTip';
 import MuiTable from './components/MuiTable';
+import MuiAlert from './components/MuiAlert';
 
 
 function App() {
@@ -52,7 +53,8 @@ function App() {
       {/* <MuiList /> */}
       {/* <MuiChip /> */}
       {/* <MuiToolTip /> */}
-      <MuiTable />
+      {/* <MuiTable /> */}
+      <MuiAlert />
     </div>
   );
 }
